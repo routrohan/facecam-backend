@@ -6,8 +6,8 @@ var cors = require('cors')
 const database = {
   users: [{
     id: '123',
-    name: 'Andrei',
-    email: 'john@gmail.com',
+    name: 'Rohan',
+    email: 'rohan@gmail.com',
     entries: 0,
     joined: new Date()
   }],
@@ -62,4 +62,4 @@ app.get('/profile/:userId', (req, res) => {
 
 })
 
-app.listen(3000, () => console.log('Example app listening on port 3000!'))
+app.listen(3000, () => console.log('app listening on port 3000!'))
